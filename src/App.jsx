@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import SuggestionBar from "./components/SuggestionBar";
 function App() {
   return (
     <div className="">
@@ -16,7 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
         </div>
-        <div className="w-96 border-l h-screen"></div>
+        <SuggestionBar />
       </div>
     </div>
   );

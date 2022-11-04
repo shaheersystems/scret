@@ -10,10 +10,10 @@ function TabBar() {
   }
   const activeClass = "font-black border-black";
   return (
-    <div className="h-12 w-full font-code border-b flex gap-3  items-center">
+    <div className="h-12 w-full font-body border-b flex gap-3  items-center">
       <button
         onClick={handle1}
-        className={`px-4 py-3 border-b ${
+        className={`px-4 py-3 border-b hover:bg-gray-100 ${
           isActive === 1 ? activeClass : "border-transparent"
         }`}
       >
@@ -21,7 +21,7 @@ function TabBar() {
       </button>
       <button
         onClick={handle2}
-        className={`px-4 py-3 border-b ${
+        className={`px-4 py-3 border-b hover:bg-gray-100 ${
           isActive === 2 ? activeClass : "border-transparent"
         }`}
       >

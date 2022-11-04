@@ -4,8 +4,8 @@ module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      code: ["Fira Code", "sans-serif"],
-      title: ["Playfair Display", "serif"],
+      title: ["Amiri", "serif"],
+      body: ["Montserrat", "sans-serif"],
     },
     extend: {},
   },
